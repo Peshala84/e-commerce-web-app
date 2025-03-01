@@ -45,7 +45,7 @@
             </h5>
             <div class="ratings mt-auto">
               <div class="rating-outer">
-                <div class="rating-inner"></div>
+                <div class="rating-inner" [ngStyle] = "{'width': product.ratings / 5 * 100 + '%'}" ></div>
               </div>
               <span id="no_of_reviews">(5 Reviews)</span>
             </div>
